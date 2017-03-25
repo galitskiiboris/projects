@@ -167,12 +167,6 @@ int main(){
 	cout << "OK\n";
     double i = 2;
     C q =  i - a;
-    cout << q.re <<" " << q.im << "\n";
-    double uuu = 2;
-    C oooo(1, 2);
-    C pppp(2, 0);
-    q = uuu / oooo;
-    cout << q.re <<" " << q.im << endl;
     cout << q;
     return 0;
 }
